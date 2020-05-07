@@ -34,8 +34,6 @@ class Dataset(object):
                 for i in range(fbank.shape[0]):
                     l.append(frame_combine(i,file_path,0,fbank.shape[0]-1))
                     ll.append('2')
-                example.append(l)
-                label.append(ll)
             else:
                 fbank = fbank_reader.HTKFeat_read(file_path).getall()
                 first=self.position_list.find(getname(fileinfo))
@@ -76,12 +74,12 @@ class Dataset(object):
                     l.append(frame_combine(frame,file_path,st,en-1))
                     ll.append('2')
                     # print("lshape",len(l))
-                example.append(l)
+            example.append(l)
                 #print("example",len(example[0]))
-                label.append(ll)
+            label.append(ll)
         res1=np.array(example)
         res2=np.array(label)
-        print(res1.shape[1],res2.shape[1])
+        print(res1.shape,res2.shape)
         #print(res1,res2)
         return res1,res2
 

@@ -75,10 +75,11 @@ class Dataset(object):
                 for frame in range(st,en):
                     l.append(frame_combine(frame,file_path,st,en-1))
                     ll.append('2')
-                    print("lshape",len(l))
+                    # print("lshape",len(l))
                 example.append(l)
-                print("example",len(example[0]))
+                #print("example",len(example[0]))
                 label.append(ll)
+        print(len(example[0]))
         return example,label
 
 def frame_combine(frame, file_path, start, end):

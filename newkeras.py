@@ -20,7 +20,7 @@ def trans(dataset,batch_size):
 #        print(xx.shape)
  #       print(yy.shape)
         yield xx,yy
-os.environ["CUDA_VISIBLE_DEVICES"] ="-1"
+os.environ["CUDA_VISIBLE_DEVICES"] ="0"
 batch_size =64
 num_classes = 3
 epochs =350

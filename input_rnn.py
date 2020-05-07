@@ -269,4 +269,9 @@ def read_data_sets():
 
     return train, test
 if __name__ == '__main__':
-    
+    x,y=read_data_sets()
+    temp=x.next_batch(16)
+    xx=np.array(temp[0])
+    yy=np.array(temp[1])
+    print('xshape',xx.shape)
+    print('yshape',yy.shape)

@@ -189,12 +189,12 @@ def read_data_sets():
 
     f = open("/home/disk2/internship_anytime/aslp_hotword_data/aslp_wake_up_word_data/train.scp", "r")
     temp = f.read()
-    train_list = temp.split('\n')
+    train_list = temp.split('\n')[1:100]
     f.close()
 
     f = open("/home/disk2/internship_anytime/aslp_hotword_data/aslp_wake_up_word_data/test.scp", "r")
     temp = f.read()
-    test_list = temp.split('\n')
+    test_list = temp.split('\n')[1:100]
     f.close()
 
     test_examples = []

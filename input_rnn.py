@@ -94,19 +94,9 @@ class TrainSet(object):
 
             else:
                 file_path =example.split(" ")[1]
-
                 fbank = fbank_reader.HTKFeat_read(file_path).getall()
                 frame_number = fbank.shape[0]
-
                 #print (example)
-
-
-
-
-
-
-
-
                 for frame in range(frame_number):
                     self.example.append(frame_combine(frame, file_path, 0, frame_number - 1))
                     self.labels.append('2')

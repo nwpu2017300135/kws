@@ -79,8 +79,10 @@ class Dataset(object):
                 example.append(l)
                 #print("example",len(example[0]))
                 label.append(ll)
-        print(len(example[0]))
-        return example,label
+        res1=np.array(example)
+        res2=np.array(label)
+        print(res1.shape,res2.shape)
+        return res1,res2
 
 def frame_combine(frame, file_path, start, end):
     fbank = fbank_reader.HTKFeat_read(file_path).getall()
@@ -150,8 +152,6 @@ def read_data_sets():
 
 if __name__ == '__main__':
     x,y=read_data_sets()
-    temp=x.get_next_batch(16)
-    xx=np.array(temp[0])
-    yy=np.array(temp[1])
+    xx,yy=x.get_next_batch(16)
     print('xshape',xx.shape)
     print('yshape',yy.shape)

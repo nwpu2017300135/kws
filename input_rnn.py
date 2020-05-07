@@ -82,6 +82,7 @@ class Dataset(object):
         res1=np.array(example)
         res2=np.array(label)
         print(res1.shape,res2.shape)
+        print(res1,res2)
         return res1,res2
 
 def frame_combine(frame, file_path, start, end):

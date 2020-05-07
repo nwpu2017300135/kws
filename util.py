@@ -110,6 +110,7 @@ def do_eval(confidence):
         false_reject_rate_list.append(false_reject_rate)
     plot(false_alarm_rate_list, false_reject_rate_list)
     print(false_alarm_rate_list[0::100])
+    return  false_alarm_rate_list,false_reject_rate_list
 
 
 

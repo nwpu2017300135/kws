@@ -74,13 +74,13 @@ class Dataset(object):
                     l.append(frame_combine(frame,file_path,st,en-1))
                     ll.append('2')
                     # print("lshape",len(l))
-            example.append(l.copy())
+            example.append(np.array(l.copy()))
                 #print("example",len(example[0]))
-            label.append(ll.copy())
+            label.append(np.array(ll.copy()))
         res1=np.array(example)
         res2=np.array(label)
         print(res1.shape,res2.shape)
-        print(res2[0])
+        print(res1[1].shape)
         return res1,res2
 
 def frame_combine(frame, file_path, start, end):

@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-28T09:38:36.576Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36 Edg/90.0.818.66" etag="nck50hRpWnV7P-vupS9v" version="14.7.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-29T07:56:32.907Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36 Edg/90.0.818.66" etag="vlZ56b3zOlzal_cQTKB-" version="14.7.2" type="github">
   <diagram id="l-gmh0kHJSRoE3NE7Gwd" name="Page-1">
     <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -32,6 +32,87 @@
         </mxCell>
         <mxCell id="sf__AcRPpmavuWq5uN54-13" value="输入语音" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="10" y="350" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="sf__AcRPpmavuWq5uN54-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sf__AcRPpmavuWq5uN54-15" target="sf__AcRPpmavuWq5uN54-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sf__AcRPpmavuWq5uN54-15" value="降低" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="220" y="530" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="sf__AcRPpmavuWq5uN54-16" value="风速" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="370" y="530" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="sf__AcRPpmavuWq5uN54-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sf__AcRPpmavuWq5uN54-19" target="sf__AcRPpmavuWq5uN54-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sf__AcRPpmavuWq5uN54-19" value="降低" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="220" y="630" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="sf__AcRPpmavuWq5uN54-20" value="温度" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="370" y="630" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="sf__AcRPpmavuWq5uN54-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sf__AcRPpmavuWq5uN54-22" target="sf__AcRPpmavuWq5uN54-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sf__AcRPpmavuWq5uN54-22" value="降低" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="220" y="730" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="sf__AcRPpmavuWq5uN54-23" value="音量" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="370" y="730" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="sf__AcRPpmavuWq5uN54-24" value="起始状态" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="80" y="630" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="sf__AcRPpmavuWq5uN54-29" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.donut;dx=7;shadow=0;sketch=0;strokeWidth=1;perimeterSpacing=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="630" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="sf__AcRPpmavuWq5uN54-30" value="终止状态" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="550" y="660" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="sf__AcRPpmavuWq5uN54-44" value="风速:风速/1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="290" y="520" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="sf__AcRPpmavuWq5uN54-45" value="温度:温度/1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="290" y="620" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="sf__AcRPpmavuWq5uN54-46" value="音量:音量/1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="290" y="720" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="sf__AcRPpmavuWq5uN54-54" value="" style="endArrow=classic;html=1;entryX=-0.025;entryY=0.588;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="sf__AcRPpmavuWq5uN54-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="660" as="sourcePoint" />
+            <mxPoint x="210" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sf__AcRPpmavuWq5uN54-55" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="sf__AcRPpmavuWq5uN54-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="670" as="sourcePoint" />
+            <mxPoint x="210" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sf__AcRPpmavuWq5uN54-58" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="sf__AcRPpmavuWq5uN54-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="680" as="sourcePoint" />
+            <mxPoint x="210" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sf__AcRPpmavuWq5uN54-59" value="" style="endArrow=classic;html=1;entryX=0.073;entryY=0.207;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="sf__AcRPpmavuWq5uN54-29">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450" y="570" as="sourcePoint" />
+            <mxPoint x="500" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sf__AcRPpmavuWq5uN54-60" value="" style="endArrow=classic;html=1;entryX=-0.012;entryY=0.476;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="sf__AcRPpmavuWq5uN54-29">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450" y="670" as="sourcePoint" />
+            <mxPoint x="500" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sf__AcRPpmavuWq5uN54-61" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450" y="770" as="sourcePoint" />
+            <mxPoint x="550" y="700" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
